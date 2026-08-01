@@ -57,8 +57,8 @@ export default {
             fields: [
               {
                 name: '👤 User',
-                value: `${newUser.tag} (${newUser.id})`,
-                inline: false
+                value: `${newUser.tag}`,
+                inline: true
               },
               ...fields
             ]
