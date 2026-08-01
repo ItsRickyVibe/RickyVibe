@@ -113,7 +113,6 @@ export default {
                     title: 'User joined',
                     lines: [
                         `**User:** ${user.toString()} (${user.displayName !== user.username ? `@${user.displayName}` : user.tag})`,
-                        `**ID:** \`${user.id}\``,
                         `**Created:** <t:${Math.floor(user.createdTimestamp / 1000)}:R>`,
                         `**Members:** ${guild.memberCount}`,
                     ],
